@@ -1,7 +1,7 @@
 {
 	"name": "@mmstudio/awx000004",
 	"version": "1.0.0",
-	"description": "打开文档",
+	"description": "下载在线文档并打开",
 	"scripts": {
 		"test": "tsc -w",
 		"clean": "del-cli ./dist/",
@@ -38,7 +38,11 @@
 	],
 	"license": "MIT",
 	"dependencies": {},
+	"peerDependencies": {
+		"@mmstudio/global": "*"
+	},
 	"devDependencies": {
+		"@mmstudio/global": "latest",
 		"@types/weixin-app": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
