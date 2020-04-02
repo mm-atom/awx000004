@@ -1,2 +1,3 @@
-export default function fun() {
+
+export default function awx4(param1: string) {
 }
